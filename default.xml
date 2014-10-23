@@ -28,7 +28,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="BMFR/android" remote="bmfr" revision="bmfr-kk" groups="pdk" />
+  <project path="android" name="android" remote="bmfr" revision="bmfr-kk" groups="pdk" />
 
   <project path="abi/cpp" name="BMFR/android_abi_cpp" groups="pdk" />
   <project path="art" name="BMFR/android_art" />
