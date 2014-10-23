@@ -507,4 +507,5 @@
   <project path="frameworks/base" name="BMFR/android_frameworks_base" remote="bmfr" revision="bmfr-kk" />
   <project path="packages/apps/InCallUI" name="BMFR/android_packages_apps_InCallUI" remote="bmfr" revision="bmfr-kk" />
   <project path="vendor/cm" name="BMFR/android_vendor_cm" remote="bmfr" revision="bmfr-kk" />
+  <project path="device/samsung/klte-common" name="BMFR/android_device_samsung_klte-common" remote="bmfr" revision="bmfr-kk" />  
 </manifest>
