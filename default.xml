@@ -499,7 +499,7 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="cm" />
   
   <!--BMFR Additions-->
-  <project path="packages_wallpapers_SlothWalls " name="android_packages_wallpapers_SlothWalls" remote="bmfr" revision="bmfr-kk" />
+  <project path="packages/wallpapers/SlothWalls " name="packages_wallpapers_SlothWalls" remote="bmfr" revision="bmfr-kk" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="bmfr" revision="bmfr-kk" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="bmfr" revision="bmfr-kk" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="bmfr" revision="bmfr-kk" />
