@@ -5,6 +5,10 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
   
+
+  <remote  name="tm"
+           fetch="https://github.com/TheMuppets/" />
+
   <remote  name="bmfr"
            fetch="https://github.com/BMFR/" />
 
@@ -513,4 +517,5 @@
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="bmfr" revision="bmfr-kk" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4w_r1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4w_r1" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-11.0" />
 </manifest>
