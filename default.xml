@@ -507,7 +507,6 @@
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="bmfr" revision="bmfr-kk" />
   <project path="vendor/cm" name="android_vendor_cm" remote="bmfr" revision="bmfr-kk" />
   <project path="device/samsung/klte-common" name="android_device_samsung_klte-common" remote="bmfr" revision="bmfr-kk" />
-  <project path="device/samsung/samsung-msm8960" name="android_device_samsung_msm8960-common" remote="bmfr" revision="bmfr-kk" />
   <project path="device/samsung/samsung-msm8974" name="android_device_samsung_msm8974-common" remote="bmfr" revision="bmfr-kk" />
   <project path="kernel/samsung/klte" name="android_kernel_samsung_klte" remote="bmfr" revision="bmfr-kk" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="bmfr" revision="bmfr-kk" />
