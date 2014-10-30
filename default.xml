@@ -348,8 +348,6 @@
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" groups="caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" groups="caf" />
   <project path="hardware/qcom/display-caf-new" name="android_hardware_qcom_display-caf-new" groups="caf" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" />
@@ -518,6 +516,8 @@
   <project path="device/samsung/msm8974-common" name="android_device_samsung_msm8974-common" remote="bmfr" revision="bmfr-kk" />
   <project path="device/qcom/common" name="android_device_qcom_common" />
   <project path="kernel/samsung/klte" name="android_kernel_samsung_klte" remote="bmfr" revision="bmfr-kk" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="bmfr" revision="bmfr-kk" groups="qcom" />
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="bmfr" revision="bmfr-kk" groups="caf" />
   <project path="kernel/google/msm" name="android_kernel_google_msm" remote="bmfr" revision="bmfr-kk" />
   <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="bmfr" revision="bmfr-kk" />
   <project name="android_device_asus_flo" path="device/asus/flo" remote="bmfr" revision="bmfr-kk" />
