@@ -9,7 +9,7 @@
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
 
-  <remote  name="LMP"
+  <remote  name="lmp"
            fetch="https://github.com/LMP/" />
 
   <remote  name="github"
@@ -31,11 +31,11 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="android_build" remote="LMP" revision="LMP-5.0" groups="pdk" >
+  <project path="build" name="android_build" remote="LMP" revision="LP-5.0" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="android" remote="LMP" revision="LMP-5.0" groups="pdk" />
+  <project path="android" name="android" remote="LMP" revision="LP-5.0" groups="pdk" />
 
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" />
   <project path="art" name="android_art" />
